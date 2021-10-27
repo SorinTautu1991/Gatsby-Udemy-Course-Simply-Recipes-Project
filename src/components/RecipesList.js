@@ -7,7 +7,7 @@ const RecipesList = ({ recipes = [] }) => {
   return (
     <div className="recipes-list">
       {recipes.map(recipe => {
-        const { id, title, image, prepTime, cookTime, layout } = recipe;
+        const { id, title, image, prepTime, cookTime } = recipe;
         const pathToImg = getImage(image);
         const slug = slugify(title, { lower: true });
         return (

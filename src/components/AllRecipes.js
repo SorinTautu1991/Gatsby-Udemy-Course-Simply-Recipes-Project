@@ -30,7 +30,6 @@ const AllRecipes = () => {
 
   return (
     <section className="recipes-container">
-      <h4>all recipes</h4>
       <TagsList recipes={recipes} />
       <RecipesList recipes={recipes} />
     </section>
