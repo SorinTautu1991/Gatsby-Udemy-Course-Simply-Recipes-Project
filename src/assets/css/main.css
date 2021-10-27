@@ -620,7 +620,7 @@ form > *:last-child {
 
 @media screen and (min-width: 992px) {
   .recipes-container {
-    grid-template-columns: 200px 1fr;
+    /* grid-template-columns: 200px 1fr; */
     gap: 1rem;
   }
   .recipes-list {
